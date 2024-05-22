@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB077CE82BBAD79A00C10A76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077CE72BBAD79A00C10A76 /* AppDelegate.swift */; };
+		EB077CEC2BBAD79A00C10A76 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077CEB2BBAD79A00C10A76 /* MenuViewController.swift */; };
+		EB077CF22BBAD79A00C10A76 /* SkyRoad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB077CF02BBAD79A00C10A76 /* SkyRoad.xcdatamodeld */; };
+		EB077CF42BBAD79C00C10A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB077CF32BBAD79C00C10A76 /* Assets.xcassets */; };
+		EB077CF72BBAD79C00C10A76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB077CF52BBAD79C00C10A76 /* LaunchScreen.storyboard */; };
+		EB077CFF2BBAD91F00C10A76 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077CFE2BBAD91F00C10A76 /* GameView.swift */; };
+		EB077D012BBAD93E00C10A76 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D002BBAD93E00C10A76 /* GameManager.swift */; };
+		EB077D032BBAD96200C10A76 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D022BBAD96200C10A76 /* GameController.swift */; };
+		EB077D062BBADA0D00C10A76 /* GameCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D052BBADA0D00C10A76 /* GameCoordinator.swift */; };
+		EB077D092BBDC2B400C10A76 /* CustomButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D082BBDC2B400C10A76 /* CustomButtons.swift */; };
+		EB077D0B2BBEA3FA00C10A76 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D0A2BBEA3FA00C10A76 /* CustomViews.swift */; };
+		EB077D122BBF06B600C10A76 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D112BBF06B600C10A76 /* Colors.swift */; };
+		EB077D182BC021D400C10A76 /* AbhayaLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB077D132BC021D300C10A76 /* AbhayaLibre-Medium.ttf */; };
+		EB077D192BC021D400C10A76 /* AbhayaLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB077D142BC021D300C10A76 /* AbhayaLibre-Bold.ttf */; };
+		EB077D1A2BC021D400C10A76 /* AbhayaLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB077D152BC021D400C10A76 /* AbhayaLibre-Regular.ttf */; };
+		EB077D1B2BC021D400C10A76 /* AbhayaLibre-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB077D162BC021D400C10A76 /* AbhayaLibre-ExtraBold.ttf */; };
+		EB077D1C2BC021D400C10A76 /* AbhayaLibre-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB077D172BC021D400C10A76 /* AbhayaLibre-SemiBold.ttf */; };
+		EB077D1E2BC0279400C10A76 /* AllowNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D1D2BC0279400C10A76 /* AllowNotificationViewController.swift */; };
+		EB077D202BC02ACB00C10A76 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D1F2BC02ACB00C10A76 /* SettingsViewController.swift */; };
+		EB077D262BC0407E00C10A76 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D252BC0407E00C10A76 /* TopViewController.swift */; };
+		EB077D282BC0438900C10A76 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D272BC0438900C10A76 /* TopCollectionViewCell.swift */; };
+		EB077D2A2BC3351A00C10A76 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB077D292BC3351A00C10A76 /* MapsViewController.swift */; };
+		EB36D71A2BD68865006A80EC /* MultiroundPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB36D7192BD68865006A80EC /* MultiroundPro.ttf */; };
+		EB36D7412BE3A119006A80EC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = EB36D7402BE3A116006A80EC /* PrivacyInfo.xcprivacy */; };
+		EB849CE32BC46794004AA007 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CE22BC46794004AA007 /* CustomTextField.swift */; };
+		EB849CE62BC47321004AA007 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CE52BC47321004AA007 /* Extensions.swift */; };
+		EB849CE82BC530F9004AA007 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CE72BC530F9004AA007 /* Coordinator.swift */; };
+		EB849CEA2BC53128004AA007 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CE92BC53128004AA007 /* SettingsCoordinator.swift */; };
+		EB849CEC2BC53523004AA007 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CEB2BC53523004AA007 /* MenuCoordinator.swift */; };
+		EB849CEE2BC54F85004AA007 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CED2BC54F85004AA007 /* UserDefault.swift */; };
+		EB849CF12BC551FD004AA007 /* RecordObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CF02BC551FD004AA007 /* RecordObject.swift */; };
+		EB849CF32BC57C90004AA007 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB849CF22BC57C90004AA007 /* music.mp3 */; };
+		EB849CF52BC5992A004AA007 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849CF42BC5992A004AA007 /* LoadingViewController.swift */; };
+		EB849D112BC5A0E7004AA007 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB849D102BC5A0E7004AA007 /* GoogleService-Info.plist */; };
+		EB849D1A2BC5A360004AA007 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849D192BC5A360004AA007 /* NotificationService.swift */; };
+		EB849D1E2BC5A360004AA007 /* pushNotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EB849D172BC5A360004AA007 /* pushNotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB849D2B2BC5AA15004AA007 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D2A2BC5AA15004AA007 /* FirebaseMessaging */; };
+		EB849D3B2BC5AA4F004AA007 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D3A2BC5AA4F004AA007 /* FirebaseAnalytics */; };
+		EB849D3D2BC5AA4F004AA007 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D3C2BC5AA4F004AA007 /* FirebaseAnalyticsSwift */; };
+		EB849D3F2BC5AA4F004AA007 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D3E2BC5AA4F004AA007 /* FirebaseMessaging */; };
+		EB849D412BC5AA4F004AA007 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D402BC5AA4F004AA007 /* FirebaseRemoteConfig */; };
+		EB849D432BC5AA4F004AA007 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D422BC5AA4F004AA007 /* FirebaseRemoteConfigSwift */; };
+		EB849D452BC5AA53004AA007 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EB849D442BC5AA53004AA007 /* SnapKit */; };
+		EB849D4C2BC6A548004AA007 /* CustomErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB849D4B2BC6A548004AA007 /* CustomErrorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB849D1C2BC5A360004AA007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB077CDC2BBAD79A00C10A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB849D162BC5A360004AA007;
+			remoteInfo = pushNotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB849D222BC5A360004AA007 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB849D1E2BC5A360004AA007 /* pushNotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB077CE42BBAD79A00C10A76 /* Sky Road: Rocket Jackpot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sky Road: Rocket Jackpot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB077CE72BBAD79A00C10A76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB077CEB2BBAD79A00C10A76 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EB077CF12BBAD79A00C10A76 /* SkyRoad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SkyRoad.xcdatamodel; sourceTree = "<group>"; };
+		EB077CF32BBAD79C00C10A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB077CF62BBAD79C00C10A76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB077CF82BBAD79C00C10A76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB077CFE2BBAD91F00C10A76 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		EB077D002BBAD93E00C10A76 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		EB077D022BBAD96200C10A76 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		EB077D052BBADA0D00C10A76 /* GameCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCoordinator.swift; sourceTree = "<group>"; };
+		EB077D082BBDC2B400C10A76 /* CustomButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtons.swift; sourceTree = "<group>"; };
+		EB077D0A2BBEA3FA00C10A76 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		EB077D112BBF06B600C10A76 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EB077D132BC021D300C10A76 /* AbhayaLibre-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Medium.ttf"; sourceTree = "<group>"; };
+		EB077D142BC021D300C10A76 /* AbhayaLibre-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Bold.ttf"; sourceTree = "<group>"; };
+		EB077D152BC021D400C10A76 /* AbhayaLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Regular.ttf"; sourceTree = "<group>"; };
+		EB077D162BC021D400C10A76 /* AbhayaLibre-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EB077D172BC021D400C10A76 /* AbhayaLibre-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-SemiBold.ttf"; sourceTree = "<group>"; };
+		EB077D1D2BC0279400C10A76 /* AllowNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowNotificationViewController.swift; sourceTree = "<group>"; };
+		EB077D1F2BC02ACB00C10A76 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EB077D252BC0407E00C10A76 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		EB077D272BC0438900C10A76 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		EB077D292BC3351A00C10A76 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		EB36D7192BD68865006A80EC /* MultiroundPro.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MultiroundPro.ttf; sourceTree = "<group>"; };
+		EB36D7402BE3A116006A80EC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		EB849CE22BC46794004AA007 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EB849CE52BC47321004AA007 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EB849CE72BC530F9004AA007 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EB849CE92BC53128004AA007 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinator.swift; sourceTree = "<group>"; };
+		EB849CEB2BC53523004AA007 /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		EB849CED2BC54F85004AA007 /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		EB849CF02BC551FD004AA007 /* RecordObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordObject.swift; sourceTree = "<group>"; };
+		EB849CF22BC57C90004AA007 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		EB849CF42BC5992A004AA007 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		EB849D102BC5A0E7004AA007 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EB849D122BC5A1E6004AA007 /* SkyRoad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkyRoad.entitlements; sourceTree = "<group>"; };
+		EB849D172BC5A360004AA007 /* pushNotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = pushNotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB849D192BC5A360004AA007 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		EB849D1B2BC5A360004AA007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB849D4B2BC6A548004AA007 /* CustomErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB077CE12BBAD79A00C10A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB849D452BC5AA53004AA007 /* SnapKit in Frameworks */,
+				EB849D412BC5AA4F004AA007 /* FirebaseRemoteConfig in Frameworks */,
+				EB849D3D2BC5AA4F004AA007 /* FirebaseAnalyticsSwift in Frameworks */,
+				EB849D3F2BC5AA4F004AA007 /* FirebaseMessaging in Frameworks */,
+				EB849D3B2BC5AA4F004AA007 /* FirebaseAnalytics in Frameworks */,
+				EB849D432BC5AA4F004AA007 /* FirebaseRemoteConfigSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB849D142BC5A360004AA007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB849D2B2BC5AA15004AA007 /* FirebaseMessaging in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB077CDB2BBAD79A00C10A76 = {
+			isa = PBXGroup;
+			children = (
+				EB077CE62BBAD79A00C10A76 /* SkyRoad */,
+				EB849D182BC5A360004AA007 /* pushNotificationService */,
+				EB077CE52BBAD79A00C10A76 /* Products */,
+				EB849D232BC5A3E9004AA007 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB077CE52BBAD79A00C10A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB077CE42BBAD79A00C10A76 /* Sky Road: Rocket Jackpot.app */,
+				EB849D172BC5A360004AA007 /* pushNotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB077CE62BBAD79A00C10A76 /* SkyRoad */ = {
+			isa = PBXGroup;
+			children = (
+				EB36D7402BE3A116006A80EC /* PrivacyInfo.xcprivacy */,
+				EB849D122BC5A1E6004AA007 /* SkyRoad.entitlements */,
+				EB849D102BC5A0E7004AA007 /* GoogleService-Info.plist */,
+				EB849CF22BC57C90004AA007 /* music.mp3 */,
+				EB849CEF2BC551EE004AA007 /* Models */,
+				EB077D042BBADA0000C10A76 /* Coordinators */,
+				EB849CE42BC46C90004AA007 /* Game */,
+				EB077D242BC0375F00C10A76 /* Maps */,
+				EB077D232BC0375500C10A76 /* Top */,
+				EB077D222BC0375000C10A76 /* Menu */,
+				EB077D212BC0374900C10A76 /* Settings */,
+				EB077D142BC021D300C10A76 /* AbhayaLibre-Bold.ttf */,
+				EB077D162BC021D400C10A76 /* AbhayaLibre-ExtraBold.ttf */,
+				EB36D7192BD68865006A80EC /* MultiroundPro.ttf */,
+				EB077D132BC021D300C10A76 /* AbhayaLibre-Medium.ttf */,
+				EB077D152BC021D400C10A76 /* AbhayaLibre-Regular.ttf */,
+				EB077D172BC021D400C10A76 /* AbhayaLibre-SemiBold.ttf */,
+				EB077D072BBDC2A300C10A76 /* Utils */,
+				EB077CE72BBAD79A00C10A76 /* AppDelegate.swift */,
+				EB077CF32BBAD79C00C10A76 /* Assets.xcassets */,
+				EB077CF52BBAD79C00C10A76 /* LaunchScreen.storyboard */,
+				EB077CF82BBAD79C00C10A76 /* Info.plist */,
+				EB077CF02BBAD79A00C10A76 /* SkyRoad.xcdatamodeld */,
+				EB077D1D2BC0279400C10A76 /* AllowNotificationViewController.swift */,
+				EB849CF42BC5992A004AA007 /* LoadingViewController.swift */,
+			);
+			path = SkyRoad;
+			sourceTree = "<group>";
+		};
+		EB077D042BBADA0000C10A76 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				EB849CE72BC530F9004AA007 /* Coordinator.swift */,
+				EB077D052BBADA0D00C10A76 /* GameCoordinator.swift */,
+				EB849CEB2BC53523004AA007 /* MenuCoordinator.swift */,
+				EB849CE92BC53128004AA007 /* SettingsCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		EB077D072BBDC2A300C10A76 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EB077D082BBDC2B400C10A76 /* CustomButtons.swift */,
+				EB077D0A2BBEA3FA00C10A76 /* CustomViews.swift */,
+				EB077D112BBF06B600C10A76 /* Colors.swift */,
+				EB849CE22BC46794004AA007 /* CustomTextField.swift */,
+				EB849CE52BC47321004AA007 /* Extensions.swift */,
+				EB849CED2BC54F85004AA007 /* UserDefault.swift */,
+				EB849D4B2BC6A548004AA007 /* CustomErrorView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EB077D212BC0374900C10A76 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EB077D1F2BC02ACB00C10A76 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EB077D222BC0375000C10A76 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EB077CEB2BBAD79A00C10A76 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EB077D232BC0375500C10A76 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				EB077D252BC0407E00C10A76 /* TopViewController.swift */,
+				EB077D272BC0438900C10A76 /* TopCollectionViewCell.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		EB077D242BC0375F00C10A76 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				EB077D292BC3351A00C10A76 /* MapsViewController.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		EB849CE42BC46C90004AA007 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EB077CFE2BBAD91F00C10A76 /* GameView.swift */,
+				EB077D002BBAD93E00C10A76 /* GameManager.swift */,
+				EB077D022BBAD96200C10A76 /* GameController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		EB849CEF2BC551EE004AA007 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB849CF02BC551FD004AA007 /* RecordObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB849D182BC5A360004AA007 /* pushNotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				EB849D192BC5A360004AA007 /* NotificationService.swift */,
+				EB849D1B2BC5A360004AA007 /* Info.plist */,
+			);
+			path = pushNotificationService;
+			sourceTree = "<group>";
+		};
+		EB849D232BC5A3E9004AA007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB077CE32BBAD79A00C10A76 /* SkyRoad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB077CFB2BBAD79C00C10A76 /* Build configuration list for PBXNativeTarget "SkyRoad" */;
+			buildPhases = (
+				EB077CE02BBAD79A00C10A76 /* Sources */,
+				EB077CE12BBAD79A00C10A76 /* Frameworks */,
+				EB077CE22BBAD79A00C10A76 /* Resources */,
+				EB849D222BC5A360004AA007 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB849D1D2BC5A360004AA007 /* PBXTargetDependency */,
+			);
+			name = SkyRoad;
+			packageProductDependencies = (
+				EB849D3A2BC5AA4F004AA007 /* FirebaseAnalytics */,
+				EB849D3C2BC5AA4F004AA007 /* FirebaseAnalyticsSwift */,
+				EB849D3E2BC5AA4F004AA007 /* FirebaseMessaging */,
+				EB849D402BC5AA4F004AA007 /* FirebaseRemoteConfig */,
+				EB849D422BC5AA4F004AA007 /* FirebaseRemoteConfigSwift */,
+				EB849D442BC5AA53004AA007 /* SnapKit */,
+			);
+			productName = SkyRoad;
+			productReference = EB077CE42BBAD79A00C10A76 /* Sky Road: Rocket Jackpot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB849D162BC5A360004AA007 /* pushNotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB849D1F2BC5A360004AA007 /* Build configuration list for PBXNativeTarget "pushNotificationService" */;
+			buildPhases = (
+				EB849D132BC5A360004AA007 /* Sources */,
+				EB849D142BC5A360004AA007 /* Frameworks */,
+				EB849D152BC5A360004AA007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pushNotificationService;
+			packageProductDependencies = (
+				EB849D2A2BC5AA15004AA007 /* FirebaseMessaging */,
+			);
+			productName = pushNotificationService;
+			productReference = EB849D172BC5A360004AA007 /* pushNotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB077CDC2BBAD79A00C10A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EB077CE32BBAD79A00C10A76 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EB849D162BC5A360004AA007 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = EB077CDF2BBAD79A00C10A76 /* Build configuration list for PBXProject "SkyRoad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB077CDB2BBAD79A00C10A76;
+			packageReferences = (
+				EB077D0C2BBEA77C00C10A76 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = EB077CE52BBAD79A00C10A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB077CE32BBAD79A00C10A76 /* SkyRoad */,
+				EB849D162BC5A360004AA007 /* pushNotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB077CE22BBAD79A00C10A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB077D182BC021D400C10A76 /* AbhayaLibre-Medium.ttf in Resources */,
+				EB36D7412BE3A119006A80EC /* PrivacyInfo.xcprivacy in Resources */,
+				EB077CF72BBAD79C00C10A76 /* LaunchScreen.storyboard in Resources */,
+				EB849D112BC5A0E7004AA007 /* GoogleService-Info.plist in Resources */,
+				EB36D71A2BD68865006A80EC /* MultiroundPro.ttf in Resources */,
+				EB077D1C2BC021D400C10A76 /* AbhayaLibre-SemiBold.ttf in Resources */,
+				EB077D192BC021D400C10A76 /* AbhayaLibre-Bold.ttf in Resources */,
+				EB077D1A2BC021D400C10A76 /* AbhayaLibre-Regular.ttf in Resources */,
+				EB077CF42BBAD79C00C10A76 /* Assets.xcassets in Resources */,
+				EB849CF32BC57C90004AA007 /* music.mp3 in Resources */,
+				EB077D1B2BC021D400C10A76 /* AbhayaLibre-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB849D152BC5A360004AA007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB077CE02BBAD79A00C10A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB077D2A2BC3351A00C10A76 /* MapsViewController.swift in Sources */,
+				EB077D282BC0438900C10A76 /* TopCollectionViewCell.swift in Sources */,
+				EB077D0B2BBEA3FA00C10A76 /* CustomViews.swift in Sources */,
+				EB077D122BBF06B600C10A76 /* Colors.swift in Sources */,
+				EB849CE32BC46794004AA007 /* CustomTextField.swift in Sources */,
+				EB849CF12BC551FD004AA007 /* RecordObject.swift in Sources */,
+				EB077D1E2BC0279400C10A76 /* AllowNotificationViewController.swift in Sources */,
+				EB077D092BBDC2B400C10A76 /* CustomButtons.swift in Sources */,
+				EB077CEC2BBAD79A00C10A76 /* MenuViewController.swift in Sources */,
+				EB849CEE2BC54F85004AA007 /* UserDefault.swift in Sources */,
+				EB849CE82BC530F9004AA007 /* Coordinator.swift in Sources */,
+				EB077D032BBAD96200C10A76 /* GameController.swift in Sources */,
+				EB077CF22BBAD79A00C10A76 /* SkyRoad.xcdatamodeld in Sources */,
+				EB849CF52BC5992A004AA007 /* LoadingViewController.swift in Sources */,
+				EB077D062BBADA0D00C10A76 /* GameCoordinator.swift in Sources */,
+				EB849CEA2BC53128004AA007 /* SettingsCoordinator.swift in Sources */,
+				EB077CFF2BBAD91F00C10A76 /* GameView.swift in Sources */,
+				EB849D4C2BC6A548004AA007 /* CustomErrorView.swift in Sources */,
+				EB077CE82BBAD79A00C10A76 /* AppDelegate.swift in Sources */,
+				EB077D012BBAD93E00C10A76 /* GameManager.swift in Sources */,
+				EB849CE62BC47321004AA007 /* Extensions.swift in Sources */,
+				EB849CEC2BC53523004AA007 /* MenuCoordinator.swift in Sources */,
+				EB077D262BC0407E00C10A76 /* TopViewController.swift in Sources */,
+				EB077D202BC02ACB00C10A76 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB849D132BC5A360004AA007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB849D1A2BC5A360004AA007 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB849D1D2BC5A360004AA007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB849D162BC5A360004AA007 /* pushNotificationService */;
+			targetProxy = EB849D1C2BC5A360004AA007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB077CF52BBAD79C00C10A76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB077CF62BBAD79C00C10A76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB077CF92BBAD79C00C10A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB077CFA2BBAD79C00C10A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB077CFC2BBAD79C00C10A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkyRoad/SkyRoad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G7Z3693P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyRoad/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera to upload photos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyroad.fly.rocket.go;
+				PRODUCT_NAME = "Sky Road: Rocket Jackpot";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB077CFD2BBAD79C00C10A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkyRoad/SkyRoad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G7Z3693P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkyRoad/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera to upload photos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyroad.fly.rocket.go;
+				PRODUCT_NAME = "Sky Road: Rocket Jackpot";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB849D202BC5A360004AA007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G7Z3693P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pushNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = pushNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyroad.fly.rocket.go.pushNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB849D212BC5A360004AA007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4G7Z3693P3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pushNotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = pushNotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyroad.fly.rocket.go.pushNotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB077CDF2BBAD79A00C10A76 /* Build configuration list for PBXProject "SkyRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB077CF92BBAD79C00C10A76 /* Debug */,
+				EB077CFA2BBAD79C00C10A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB077CFB2BBAD79C00C10A76 /* Build configuration list for PBXNativeTarget "SkyRoad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB077CFC2BBAD79C00C10A76 /* Debug */,
+				EB077CFD2BBAD79C00C10A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB849D1F2BC5A360004AA007 /* Build configuration list for PBXNativeTarget "pushNotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB849D202BC5A360004AA007 /* Debug */,
+				EB849D212BC5A360004AA007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB077D0C2BBEA77C00C10A76 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB849D2A2BC5AA15004AA007 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		EB849D3A2BC5AA4F004AA007 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		EB849D3C2BC5AA4F004AA007 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		EB849D3E2BC5AA4F004AA007 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		EB849D402BC5AA4F004AA007 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		EB849D422BC5AA4F004AA007 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB849D052BC5A047004AA007 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		EB849D442BC5AA53004AA007 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB077D0C2BBEA77C00C10A76 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EB077CF02BBAD79A00C10A76 /* SkyRoad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB077CF12BBAD79A00C10A76 /* SkyRoad.xcdatamodel */,
+			);
+			currentVersion = EB077CF12BBAD79A00C10A76 /* SkyRoad.xcdatamodel */;
+			path = SkyRoad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB077CDC2BBAD79A00C10A76 /* Project object */;
+}
